@@ -1,0 +1,1137 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 59
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Jumper JP?
+U 1 1 5F5C7C4B
+P 8750 2700
+AR Path="/5E9A7CD6/5F5C7C4B" Ref="JP?"  Part="1" 
+AR Path="/5EBD6B65/5F5C7C4B" Ref="JP?"  Part="1" 
+AR Path="/5F5C7C4B" Ref="JP?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7C4B" Ref="JP3"  Part="1" 
+F 0 "JP3" H 8750 2850 50  0000 C CNN
+F 1 "Jumper" H 8750 2620 50  0000 C CNN
+F 2 "footprints:BatteryHolder_LOIACONO" H 8750 2700 50  0001 C CNN
+F 3 "" H 8750 2700 50  0001 C CNN
+F 4 "DNS" H -1100 -1450 50  0001 C CNN "MFR"
+F 5 "-" H -1100 -1450 50  0001 C CNN "MPN"
+F 6 "-" H -1100 -1450 50  0001 C CNN "SPR"
+F 7 "-" H -1100 -1450 50  0001 C CNN "SPN"
+F 8 "-" H -1100 -1450 50  0001 C CNN "SPURL"
+	1    8750 2700
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5F5C7C51
+P 5650 1550
+AR Path="/5E9A7CD6/5F5C7C51" Ref="#FLG?"  Part="1" 
+AR Path="/5EBD6B65/5F5C7C51" Ref="#FLG?"  Part="1" 
+AR Path="/5F5C7C51" Ref="#FLG?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7C51" Ref="#FLG01"  Part="1" 
+F 0 "#FLG01" H 5650 1625 50  0001 C CNN
+F 1 "PWR_FLAG" H 5650 1700 50  0000 C CNN
+F 2 "" H 5650 1550 50  0001 C CNN
+F 3 "" H 5650 1550 50  0001 C CNN
+	1    5650 1550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F5C7C6B
+P 3000 2450
+AR Path="/5F5C7C6B" Ref="R?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7C6B" Ref="R21"  Part="1" 
+F 0 "R21" H 2930 2404 50  0000 R CNN
+F 1 "2.2k" H 2930 2495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2930 2450 50  0001 C CNN
+F 3 "~" H 3000 2450 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0402FR-072K2L" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "311-2.20KLRCT-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3000 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F5C7C72
+P 4800 2250
+AR Path="/5F5C7C72" Ref="R?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7C72" Ref="R22"  Part="1" 
+F 0 "R22" H 4730 2204 50  0000 R CNN
+F 1 "330" H 4730 2295 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4730 2250 50  0001 C CNN
+F 3 "~" H 4800 2250 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0402FR-07330RL" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "311-330LRCT-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    4800 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F5C7C7D
+P 4800 2750
+AR Path="/5EBB1743/5F5C7C7D" Ref="C?"  Part="1" 
+AR Path="/5E9A7CD6/5F5C7C7D" Ref="C?"  Part="1" 
+AR Path="/5EBD6B65/5F5C7C7D" Ref="C?"  Part="1" 
+AR Path="/5F5C7C7D" Ref="C?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7C7D" Ref="C10"  Part="1" 
+F 0 "C10" H 4810 2820 50  0000 L CNN
+F 1 ".1uF" H 4810 2670 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4800 2750 50  0001 C CNN
+F 3 "" H 4800 2750 50  0001 C CNN
+F 4 "Yageo" H 1100 -650 50  0001 C CNN "MFR"
+F 5 "CC0402KRX7R6BB104" H 1100 -650 50  0001 C CNN "MPN"
+F 6 "Digikey" H 1100 -650 50  0001 C CNN "SPR"
+F 7 "311-1345-1-ND" H 1100 -650 50  0001 C CNN "SPN"
+F 8 "" H 1100 -650 50  0001 C CNN "SPURL"
+	1    4800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L DFTBoard-rescue:BQ297xx-DFTCustom U?
+U 1 1 5F5C7C86
+P 4100 2500
+AR Path="/5F5C7C86" Ref="U?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7C86" Ref="U8"  Part="1" 
+F 0 "U8" H 4100 2875 50  0000 C CNN
+F 1 "BQ297xx" H 4100 2784 50  0000 C CNN
+F 2 "Package_SON:WSON-6_1.5x1.5mm_P0.5mm" H 4100 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/bq2970.pdf" H 3850 2700 50  0001 C CNN
+F 4 "Texas Instruments" H 0   0   50  0001 C CNN "MFR"
+F 5 "BQ29702DSER" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "296-39945-6-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    4100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5F5C7CAC
+P 5450 2700
+AR Path="/5E9A7CD6/5F5C7CAC" Ref="JP?"  Part="1" 
+AR Path="/5EBD6B65/5F5C7CAC" Ref="JP?"  Part="1" 
+AR Path="/5F5C7CAC" Ref="JP?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7CAC" Ref="JP1"  Part="1" 
+F 0 "JP1" H 5450 2850 50  0000 C CNN
+F 1 "Jumper" H 5450 2620 50  0000 C CNN
+F 2 "footprints:BatteryHolder_LOIACONO" H 5450 2700 50  0001 C CNN
+F 3 "" H 5450 2700 50  0001 C CNN
+F 4 "DNS" H -4400 -1450 50  0001 C CNN "MFR"
+F 5 "-" H -4400 -1450 50  0001 C CNN "MPN"
+F 6 "-" H -4400 -1450 50  0001 C CNN "SPR"
+F 7 "-" H -4400 -1450 50  0001 C CNN "SPN"
+F 8 "-" H -4400 -1450 50  0001 C CNN "SPURL"
+	1    5450 2700
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F5C7CCC
+P 6300 2450
+AR Path="/5F5C7CCC" Ref="R?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7CCC" Ref="R24"  Part="1" 
+F 0 "R24" H 6230 2404 50  0000 R CNN
+F 1 "2.2k" H 6230 2495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6230 2450 50  0001 C CNN
+F 3 "~" H 6300 2450 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0402FR-072K2L" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "311-2.20KLRCT-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6300 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F5C7CD3
+P 8100 2250
+AR Path="/5F5C7CD3" Ref="R?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7CD3" Ref="R28"  Part="1" 
+F 0 "R28" H 8030 2204 50  0000 R CNN
+F 1 "330" H 8030 2295 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8030 2250 50  0001 C CNN
+F 3 "~" H 8100 2250 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0402FR-07330RL" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "311-330LRCT-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    8100 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F5C7CDE
+P 8100 2750
+AR Path="/5EBB1743/5F5C7CDE" Ref="C?"  Part="1" 
+AR Path="/5E9A7CD6/5F5C7CDE" Ref="C?"  Part="1" 
+AR Path="/5EBD6B65/5F5C7CDE" Ref="C?"  Part="1" 
+AR Path="/5F5C7CDE" Ref="C?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7CDE" Ref="C16"  Part="1" 
+F 0 "C16" H 8110 2820 50  0000 L CNN
+F 1 ".1uF" H 8110 2670 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8100 2750 50  0001 C CNN
+F 3 "" H 8100 2750 50  0001 C CNN
+F 4 "Yageo" H 4400 -650 50  0001 C CNN "MFR"
+F 5 "CC0402KRX7R6BB104" H 4400 -650 50  0001 C CNN "MPN"
+F 6 "Digikey" H 4400 -650 50  0001 C CNN "SPR"
+F 7 "311-1345-1-ND" H 4400 -650 50  0001 C CNN "SPN"
+F 8 "" H 4400 -650 50  0001 C CNN "SPURL"
+	1    8100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L DFTBoard-rescue:BQ297xx-DFTCustom U?
+U 1 1 5F5C7CE7
+P 7400 2500
+AR Path="/5F5C7CE7" Ref="U?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7CE7" Ref="U10"  Part="1" 
+F 0 "U10" H 7400 2875 50  0000 C CNN
+F 1 "BQ297xx" H 7400 2784 50  0000 C CNN
+F 2 "Package_SON:WSON-6_1.5x1.5mm_P0.5mm" H 7400 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/bq2970.pdf" H 7150 2700 50  0001 C CNN
+F 4 "Texas Instruments" H 0   0   50  0001 C CNN "MFR"
+F 5 "BQ29702DSER" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "296-39945-6-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    7400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F5C7D14
+P 3900 4650
+AR Path="/5F5C7D14" Ref="C?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7D14" Ref="C9"  Part="1" 
+F 0 "C9" H 3992 4696 50  0000 L CNN
+F 1 "10uF" H 3992 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3900 4650 50  0001 C CNN
+F 3 "~" H 3900 4650 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRJ155R60J106ME11D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-13211-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F5C7D1C
+P 3600 4450
+AR Path="/5F5C7D1C" Ref="C?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7D1C" Ref="C8"  Part="1" 
+F 0 "C8" H 3692 4496 50  0000 L CNN
+F 1 "1uF" H 3692 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3600 4450 50  0001 C CNN
+F 3 "~" H 3600 4450 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRT155C80J105ME01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-12234-2-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F5C7D28
+P 3600 4350
+AR Path="/5F5C7D28" Ref="#PWR?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7D28" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 3600 4200 50  0001 C CNN
+F 1 "+5V" H 3615 4523 50  0000 C CNN
+F 2 "" H 3600 4350 50  0001 C CNN
+F 3 "" H 3600 4350 50  0001 C CNN
+	1    3600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F5C7D31
+P 9000 2700
+AR Path="/5F5C7D31" Ref="C?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7D31" Ref="C17"  Part="1" 
+F 0 "C17" V 9050 2750 50  0000 L CNN
+F 1 "10uF" V 9050 2450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9000 2700 50  0001 C CNN
+F 3 "~" H 9000 2700 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRJ155R60J106ME11D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-13211-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Small L?
+U 1 1 5F5C7D3F
+P 6400 4050
+AR Path="/5F5C7D3F" Ref="L?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7D3F" Ref="L1"  Part="1" 
+F 0 "L1" V 6585 4050 50  0000 C CNN
+F 1 "2.2uH" V 6494 4050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1812_4532Metric" H 6400 4050 50  0001 C CNN
+F 3 "~" H 6400 4050 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "LQH43PN2R2M26L" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-12049-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6400 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F5C7D45
+P 6100 4350
+AR Path="/5F5C7D45" Ref="C?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7D45" Ref="C12"  Part="1" 
+F 0 "C12" H 6192 4396 50  0000 L CNN
+F 1 "47nF" H 6192 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6100 4350 50  0001 C CNN
+F 3 "~" H 6100 4350 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM155R71H473KE14D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-10702-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F5C7D54
+P 6200 4600
+AR Path="/5F5C7D54" Ref="C?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7D54" Ref="C13"  Part="1" 
+F 0 "C13" V 6250 4500 50  0000 C CNN
+F 1 "1uF" V 6250 4700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6200 4600 50  0001 C CNN
+F 3 "~" H 6200 4600 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRT155C80J105ME01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-12234-2-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6200 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F5C7D68
+P 6850 4300
+AR Path="/5F5C7D68" Ref="C?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7D68" Ref="C14"  Part="1" 
+F 0 "C14" H 6942 4346 50  0000 L CNN
+F 1 "10uF" H 6942 4255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6850 4300 50  0001 C CNN
+F 3 "~" H 6850 4300 50  0001 C CNN
+F 4 "Murata Electronics" H 100 100 50  0001 C CNN "MFR"
+F 5 "GRJ155R60J106ME11D" H 100 100 50  0001 C CNN "MPN"
+F 6 "Digikey" H 100 100 50  0001 C CNN "SPR"
+F 7 "490-13211-1-ND" H 100 100 50  0001 C CNN "SPN"
+F 8 "-" H 100 100 50  0001 C CNN "SPURL"
+	1    6850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F5C7D6E
+P 7250 4300
+AR Path="/5F5C7D6E" Ref="C?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7D6E" Ref="C15"  Part="1" 
+F 0 "C15" H 7342 4346 50  0000 L CNN
+F 1 "10uF" H 7342 4255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7250 4300 50  0001 C CNN
+F 3 "~" H 7250 4300 50  0001 C CNN
+F 4 "Murata Electronics" H 100 100 50  0001 C CNN "MFR"
+F 5 "GRJ155R60J106ME11D" H 100 100 50  0001 C CNN "MPN"
+F 6 "Digikey" H 100 100 50  0001 C CNN "SPR"
+F 7 "490-13211-1-ND" H 100 100 50  0001 C CNN "SPN"
+F 8 "-" H 100 100 50  0001 C CNN "SPURL"
+	1    7250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F5C7D87
+P 5700 2700
+AR Path="/5F5C7D87" Ref="C?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7D87" Ref="C11"  Part="1" 
+F 0 "C11" V 5750 2750 50  0000 L CNN
+F 1 "10uF" V 5750 2450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5700 2700 50  0001 C CNN
+F 3 "~" H 5700 2700 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRJ155R60J106ME11D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-13211-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DFTBoard-rescue:R_Small-6led R?
+U 1 1 5F5C7D93
+P 6000 5400
+AR Path="/5F5C7D93" Ref="R?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7D93" Ref="R23"  Part="1" 
+F 0 "R23" V 5900 5650 50  0000 C CNN
+F 1 "265" V 5895 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6000 5400 50  0001 C CNN
+F 3 "" H 6000 5400 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "YAG3080TR-ND" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "YAG3080TR-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6000 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L DFTBoard-rescue:R_Small-6led R?
+U 1 1 5F5C7D9B
+P 6850 5400
+AR Path="/5F5C7D9B" Ref="R?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7D9B" Ref="R25"  Part="1" 
+F 0 "R25" V 6650 5400 50  0000 C CNN
+F 1 "2.2k" V 6745 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6850 5400 50  0001 C CNN
+F 3 "~" H 6850 5400 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0402FR-072K2L" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "311-2.20KLRCT-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6850 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L DFTBoard-rescue:R_Small-6led R?
+U 1 1 5F5C7DA1
+P 6850 5700
+AR Path="/5F5C7DA1" Ref="R?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7DA1" Ref="R26"  Part="1" 
+F 0 "R26" V 6650 5700 50  0000 C CNN
+F 1 "6.86k" V 6750 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6850 5700 50  0001 C CNN
+F 3 "" H 6850 5700 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RT0402BRD076K81L" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "YAG4304TR-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6850 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L DFTBoard-rescue:R_Small-6led R?
+U 1 1 5F5C7DAE
+P 7250 5700
+AR Path="/5F5C7DAE" Ref="R?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7DAE" Ref="R27"  Part="1" 
+F 0 "R27" V 7050 5700 50  0000 C CNN
+F 1 "10k" V 7145 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7250 5700 50  0001 C CNN
+F 3 "" H 7250 5700 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0402JR-0710KL" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "311-10KJRCT-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    7250 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L DFTBoard-rescue:JUMPER-DFTCustom JP?
+U 1 1 5F5C7DB9
+P 7600 5700
+AR Path="/5F5C7DB9" Ref="JP?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7DB9" Ref="JP2"  Part="1" 
+F 0 "JP2" V 7554 5827 50  0000 L CNN
+F 1 "Jumper" V 7645 5827 50  0000 L CNN
+F 2 "footprints:JUMPER_2PIN" H 7600 5700 50  0001 C CNN
+F 3 "" H 7600 5700 50  0001 C CNN
+F 4 "DNS" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    7600 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F5C7DC5
+P 6150 3200
+AR Path="/5F5C7DC5" Ref="#PWR?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7DC5" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 6150 2950 50  0001 C CNN
+F 1 "GND" H 6155 3027 50  0000 C CNN
+F 2 "" H 6150 3200 50  0001 C CNN
+F 3 "" H 6150 3200 50  0001 C CNN
+	1    6150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F5C7DCB
+P 2850 3200
+AR Path="/5F5C7DCB" Ref="#PWR?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7DCB" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 2850 2950 50  0001 C CNN
+F 1 "GND" H 2855 3027 50  0000 C CNN
+F 2 "" H 2850 3200 50  0001 C CNN
+F 3 "" H 2850 3200 50  0001 C CNN
+	1    2850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F5C7DD1
+P 6850 5900
+AR Path="/5F5C7DD1" Ref="#PWR?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7DD1" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 6850 5650 50  0001 C CNN
+F 1 "GND" H 6855 5727 50  0000 C CNN
+F 2 "" H 6850 5900 50  0001 C CNN
+F 3 "" H 6850 5900 50  0001 C CNN
+	1    6850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F5C7DD8
+P 4600 5900
+AR Path="/5F5C7DD8" Ref="#PWR?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7DD8" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 4600 5650 50  0001 C CNN
+F 1 "GND" H 4605 5727 50  0000 C CNN
+F 2 "" H 4600 5900 50  0001 C CNN
+F 3 "" H 4600 5900 50  0001 C CNN
+	1    4600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F5C7DDE
+P 3900 4750
+AR Path="/5F5C7DDE" Ref="#PWR?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7DDE" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 3900 4500 50  0001 C CNN
+F 1 "GND" H 3905 4577 50  0000 C CNN
+F 2 "" H 3900 4750 50  0001 C CNN
+F 3 "" H 3900 4750 50  0001 C CNN
+	1    3900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F5C7DE4
+P 3600 4550
+AR Path="/5F5C7DE4" Ref="#PWR?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7DE4" Ref="#PWR045"  Part="1" 
+F 0 "#PWR045" H 3600 4300 50  0001 C CNN
+F 1 "GND" H 3605 4377 50  0000 C CNN
+F 2 "" H 3600 4550 50  0001 C CNN
+F 3 "" H 3600 4550 50  0001 C CNN
+	1    3600 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F5C7DEA
+P 6850 4400
+AR Path="/5F5C7DEA" Ref="#PWR?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7DEA" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 6850 4150 50  0001 C CNN
+F 1 "GND" H 6855 4227 50  0000 C CNN
+F 2 "" H 6850 4400 50  0001 C CNN
+F 3 "" H 6850 4400 50  0001 C CNN
+	1    6850 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F5C7DF0
+P 7250 4400
+AR Path="/5F5C7DF0" Ref="#PWR?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7DF0" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 7250 4150 50  0001 C CNN
+F 1 "GND" H 7255 4227 50  0000 C CNN
+F 2 "" H 7250 4400 50  0001 C CNN
+F 3 "" H 7250 4400 50  0001 C CNN
+	1    7250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F5C7DF6
+P 6000 4800
+AR Path="/5F5C7DF6" Ref="#PWR?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7DF6" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 6000 4550 50  0001 C CNN
+F 1 "GND" V 6005 4672 50  0000 R CNN
+F 2 "" H 6000 4800 50  0001 C CNN
+F 3 "" H 6000 4800 50  0001 C CNN
+	1    6000 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F5C7DFC
+P 6300 4600
+AR Path="/5F5C7DFC" Ref="#PWR?"  Part="1" 
+AR Path="/5F5B6E56/5F5C7DFC" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 6300 4350 50  0001 C CNN
+F 1 "GND" V 6305 4472 50  0000 R CNN
+F 2 "" H 6300 4600 50  0001 C CNN
+F 3 "" H 6300 4600 50  0001 C CNN
+	1    6300 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F64F2A0
+P 5300 5900
+AR Path="/5F64F2A0" Ref="#PWR?"  Part="1" 
+AR Path="/5F5B6E56/5F64F2A0" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 5300 5650 50  0001 C CNN
+F 1 "GND" H 5305 5727 50  0000 C CNN
+F 2 "" H 5300 5900 50  0001 C CNN
+F 3 "" H 5300 5900 50  0001 C CNN
+	1    5300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F1D5A06
+P 6250 5400
+AR Path="/5F1D5A06" Ref="#PWR?"  Part="1" 
+AR Path="/5F5B6E56/5F1D5A06" Ref="#PWR0277"  Part="1" 
+F 0 "#PWR0277" H 6250 5150 50  0001 C CNN
+F 1 "GND" H 6255 5227 50  0000 C CNN
+F 2 "" H 6250 5400 50  0001 C CNN
+F 3 "" H 6250 5400 50  0001 C CNN
+	1    6250 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DFTBoard-rescue:nMOS_SGD-parts Q1
+U 1 1 5F24CACD
+P 3250 3100
+F 0 "Q1" V 3479 3100 40  0000 C CNN
+F 1 "NFET" V 3555 3100 40  0000 C CNN
+F 2 "footprints:8-VSON-CLIP" V 3622 3100 29  0000 C CNN
+F 3 "" H 3250 3100 60  0001 C CNN
+F 4 "Texas Instruments" H 0   0   50  0001 C CNN "MFR"
+F 5 "CSD16340Q3" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "296-25646-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3250 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L DFTBoard-rescue:nMOS_SGD-parts Q2
+U 1 1 5F24F199
+P 3650 3100
+F 0 "Q2" V 3879 3100 40  0000 C CNN
+F 1 "NFET" V 3955 3100 40  0000 C CNN
+F 2 "footprints:8-VSON-CLIP" V 4022 3100 29  0000 C CNN
+F 3 "" H 3650 3100 60  0001 C CNN
+F 4 "Texas Instruments" H 0   0   50  0001 C CNN "MFR"
+F 5 "CSD16340Q3" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "296-25646-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3650 3100
+	0    -1   1    0   
+$EndComp
+$Comp
+L DFTBoard-rescue:nMOS_SGD-parts Q4
+U 1 1 5F2553AA
+P 6950 3100
+F 0 "Q4" V 7179 3100 40  0000 C CNN
+F 1 "NFET" V 7255 3100 40  0000 C CNN
+F 2 "footprints:8-VSON-CLIP" V 7322 3100 29  0000 C CNN
+F 3 "" H 6950 3100 60  0001 C CNN
+F 4 "Texas Instruments" H 0   0   50  0001 C CNN "MFR"
+F 5 "CSD16340Q3" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "296-25646-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6950 3100
+	0    -1   1    0   
+$EndComp
+$Comp
+L DFTBoard-rescue:nMOS_SGD-parts Q3
+U 1 1 5F2553A0
+P 6550 3100
+F 0 "Q3" V 6779 3100 40  0000 C CNN
+F 1 "NFET" V 6855 3100 40  0000 C CNN
+F 2 "footprints:8-VSON-CLIP" V 6922 3100 29  0000 C CNN
+F 3 "" H 6550 3100 60  0001 C CNN
+F 4 "Texas Instruments" H 0   0   50  0001 C CNN "MFR"
+F 5 "CSD16340Q3" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "296-25646-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6550 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H11
+U 1 1 5F2FD383
+P 8250 4050
+F 0 "H11" V 8204 4200 50  0000 L CNN
+F 1 "MountingHole_Pad" V 8295 4200 50  0000 L CNN
+F 2 "footprints:MountingHole_2.2mm_M2_ISO7380_Pad_MADETHINNER" H 8250 4050 50  0001 C CNN
+F 3 "~" H 8250 4050 50  0001 C CNN
+F 4 "DNS" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    8250 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L DFTBoard-rescue:BQ24193-parts U9
+U 1 1 5F8B6403
+P 5350 5000
+F 0 "U9" H 5325 5997 60  0000 C CNN
+F 1 "BQ24193" H 5325 5891 60  0000 C CNN
+F 2 "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias" H 5200 4650 60  0001 C CNN
+F 3 "" H 5200 4650 60  0001 C CNN
+F 4 "Texas Instruments" H 0   0   50  0001 C CNN "MFR"
+F 5 "BQ24193RGET" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "296-35109-2-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5F8D0D58
+P 4550 2650
+F 0 "#FLG0104" H 4550 2725 50  0001 C CNN
+F 1 "PWR_FLAG" H 4550 2823 50  0000 C CNN
+F 2 "" H 4550 2650 50  0001 C CNN
+F 3 "~" H 4550 2650 50  0001 C CNN
+	1    4550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5F8D1330
+P 7850 2650
+F 0 "#FLG0105" H 7850 2725 50  0001 C CNN
+F 1 "PWR_FLAG" H 7850 2823 50  0000 C CNN
+F 2 "" H 7850 2650 50  0001 C CNN
+F 3 "~" H 7850 2650 50  0001 C CNN
+	1    7850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8D4143
+P 5650 1300
+AR Path="/5F8D4143" Ref="#PWR?"  Part="1" 
+AR Path="/5F5B6E56/5F8D4143" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 5650 1050 50  0001 C CNN
+F 1 "GND" H 5655 1127 50  0000 C CNN
+F 2 "" H 5650 1300 50  0001 C CNN
+F 3 "" H 5650 1300 50  0001 C CNN
+	1    5650 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5F8D48C5
+P 5650 1300
+AR Path="/5E9A7CD6/5F8D48C5" Ref="#FLG?"  Part="1" 
+AR Path="/5EBD6B65/5F8D48C5" Ref="#FLG?"  Part="1" 
+AR Path="/5F8D48C5" Ref="#FLG?"  Part="1" 
+AR Path="/5F5B6E56/5F8D48C5" Ref="#FLG0106"  Part="1" 
+F 0 "#FLG0106" H 5650 1375 50  0001 C CNN
+F 1 "PWR_FLAG" H 5650 1450 50  0000 C CNN
+F 2 "" H 5650 1300 50  0001 C CNN
+F 3 "" H 5650 1300 50  0001 C CNN
+	1    5650 1300
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5F5A086B
+P 6550 5050
+AR Path="/5E9A7CD6/5F5A086B" Ref="#FLG?"  Part="1" 
+AR Path="/5EBD6B65/5F5A086B" Ref="#FLG?"  Part="1" 
+AR Path="/5F5A086B" Ref="#FLG?"  Part="1" 
+AR Path="/5F5B6E56/5F5A086B" Ref="#FLG0107"  Part="1" 
+F 0 "#FLG0107" H 6550 5125 50  0001 C CNN
+F 1 "PWR_FLAG" H 6550 5200 50  0000 C CNN
+F 2 "" H 6550 5050 50  0001 C CNN
+F 3 "" H 6550 5050 50  0001 C CNN
+	1    6550 5050
+	0    1    -1   0   
+$EndComp
+Text GLabel 5450 2150 1    60   Output ~ 0
+BATT
+Text GLabel 8750 2150 1    60   Output ~ 0
+BATT
+Text GLabel 4750 5000 0    60   Input ~ 0
+I2C_SDA
+Text GLabel 4750 5100 0    60   Input ~ 0
+I2C_SCL
+Text GLabel 4750 5200 0    60   Output ~ 0
+PMIC_INT
+Text GLabel 4750 5300 0    60   Input ~ 0
+PMIC_OTG
+Text GLabel 6050 5200 2    60   Output ~ 0
+BATT
+Text Label 5950 4600 0    60   ~ 0
+REGN
+Text Label 6850 5300 0    60   ~ 0
+REGN
+Text Label 8150 3200 0    60   ~ 0
+B1_GND
+Text Label 4050 3200 0    60   ~ 0
+B0_GND
+Text Label 3700 2850 0    60   ~ 0
+DOUT_0
+Text Label 3200 2850 0    60   ~ 0
+COUT_0
+Text Label 6500 2850 0    60   ~ 0
+COUT_1
+Text Label 6850 2850 0    60   ~ 0
+DOUT_1
+Text Label 6000 4050 0    60   ~ 0
+SWOUT
+Text Label 3350 2050 0    60   ~ 0
+V0_N
+Text Label 6650 2050 0    60   ~ 0
+V1_N
+Text Label 4800 2500 0    60   ~ 0
+BAT0
+Text Label 8100 2500 0    60   ~ 0
+BAT1
+Text Label 3450 3200 1    60   ~ 0
+I0
+Text Label 6750 3200 1    60   ~ 0
+I1
+Text GLabel 8150 4050 0    60   Input ~ 0
+BATT
+Text GLabel 4750 4800 0    60   Output ~ 0
+PMIC_STAT
+Text GLabel 4750 4700 0    60   Output ~ 0
+PMIC_PG
+Text GLabel 5650 1550 2    60   Output ~ 0
+BATT
+Text Notes 3200 5750 0    60   ~ 0
+Datasheet 8.3.1.3.4\nPSEL Low = 3A current limit\n"Adaptor mode"
+Text Label 6550 4050 0    60   ~ 0
+NON_LOAD
+Text GLabel 7250 4150 1    60   Output ~ 0
+BATT
+Wire Wire Line
+	5450 2350 5450 2400
+Wire Wire Line
+	3550 2850 3700 2850
+Wire Wire Line
+	3700 2850 3700 2900
+Wire Wire Line
+	3350 2850 3200 2850
+Wire Wire Line
+	3200 2850 3200 2900
+Wire Wire Line
+	5450 3000 5450 3200
+Wire Wire Line
+	4500 2350 4650 2350
+Wire Wire Line
+	4650 2350 4650 2050
+Wire Wire Line
+	3000 2050 3000 2300
+Wire Wire Line
+	3700 2650 3550 2650
+Wire Wire Line
+	3550 2650 3550 2850
+Wire Wire Line
+	3700 2500 3350 2500
+Wire Wire Line
+	3350 2500 3350 2850
+Wire Wire Line
+	3000 2050 4650 2050
+Wire Wire Line
+	3000 2600 3000 3200
+Wire Wire Line
+	4500 2500 4800 2500
+Wire Wire Line
+	4800 2500 4800 2400
+Wire Wire Line
+	4800 2500 4800 2650
+Wire Wire Line
+	4800 2850 4800 3200
+Wire Wire Line
+	4800 3200 4550 3200
+Wire Wire Line
+	4500 2650 4550 2650
+Wire Wire Line
+	4550 2650 4550 3200
+Wire Wire Line
+	4550 3200 3850 3200
+Wire Wire Line
+	5450 2150 5450 2250
+Wire Wire Line
+	4800 2100 5300 2100
+Wire Wire Line
+	5300 2100 5300 2250
+Wire Wire Line
+	5300 2250 5450 2250
+Wire Wire Line
+	5450 2250 5450 2350
+Wire Wire Line
+	2850 3200 3000 3200
+Wire Wire Line
+	3000 3200 3050 3200
+Wire Wire Line
+	5450 3200 4800 3200
+Wire Wire Line
+	8750 2350 8750 2400
+Wire Wire Line
+	6850 2850 7000 2850
+Wire Wire Line
+	7000 2850 7000 2900
+Wire Wire Line
+	6650 2850 6500 2850
+Wire Wire Line
+	6500 2850 6500 2900
+Wire Wire Line
+	8750 3000 8750 3200
+Wire Wire Line
+	7800 2350 7950 2350
+Wire Wire Line
+	7950 2350 7950 2050
+Wire Wire Line
+	6300 2050 6300 2300
+Wire Wire Line
+	7000 2650 6850 2650
+Wire Wire Line
+	6850 2650 6850 2850
+Wire Wire Line
+	7000 2500 6650 2500
+Wire Wire Line
+	6650 2500 6650 2850
+Wire Wire Line
+	6300 2050 7950 2050
+Wire Wire Line
+	6300 2600 6300 3200
+Wire Wire Line
+	7800 2500 8100 2500
+Wire Wire Line
+	8100 2500 8100 2400
+Wire Wire Line
+	8100 2500 8100 2650
+Wire Wire Line
+	8100 2850 8100 3200
+Wire Wire Line
+	8100 3200 7850 3200
+Wire Wire Line
+	7800 2650 7850 2650
+Wire Wire Line
+	7850 2650 7850 3200
+Wire Wire Line
+	7850 3200 7150 3200
+Wire Wire Line
+	8750 2150 8750 2250
+Wire Wire Line
+	8100 2100 8600 2100
+Wire Wire Line
+	8600 2100 8600 2250
+Wire Wire Line
+	8600 2250 8750 2250
+Wire Wire Line
+	8750 2250 8750 2350
+Wire Wire Line
+	6150 3200 6300 3200
+Wire Wire Line
+	6300 3200 6350 3200
+Wire Wire Line
+	8750 3200 8100 3200
+Wire Wire Line
+	4750 4500 3900 4500
+Wire Wire Line
+	3900 4500 3900 4550
+Wire Wire Line
+	4750 4300 4600 4300
+Wire Wire Line
+	4600 4300 4600 4350
+Wire Wire Line
+	4600 4350 3600 4350
+Wire Wire Line
+	4750 4400 4600 4400
+Wire Wire Line
+	4600 4400 4600 4350
+Wire Wire Line
+	4750 5700 4600 5700
+Wire Wire Line
+	4600 5700 4600 5900
+Wire Wire Line
+	5900 5150 6000 5150
+Wire Wire Line
+	5900 5250 6000 5250
+Wire Wire Line
+	6000 4050 6000 4250
+Wire Wire Line
+	6000 4250 5900 4250
+Wire Wire Line
+	6000 4050 6300 4050
+Wire Wire Line
+	5900 4350 6000 4350
+Wire Wire Line
+	6000 4350 6000 4250
+Wire Wire Line
+	6000 4250 6100 4250
+Wire Wire Line
+	6100 4450 6100 4500
+Wire Wire Line
+	6100 4500 5900 4500
+Wire Wire Line
+	5900 4600 6100 4600
+Wire Wire Line
+	5900 4750 5950 4750
+Wire Wire Line
+	5950 4750 5950 4800
+Wire Wire Line
+	5950 4800 6000 4800
+Wire Wire Line
+	5950 4800 5950 4850
+Wire Wire Line
+	5950 4850 5900 4850
+Wire Wire Line
+	6550 5050 6550 4050
+Wire Wire Line
+	6550 4050 6500 4050
+Wire Wire Line
+	5900 5050 6000 5050
+Wire Wire Line
+	5900 4950 6000 4950
+Wire Wire Line
+	6000 4950 6000 5050
+Wire Wire Line
+	6000 5050 6550 5050
+Wire Wire Line
+	7250 4150 7250 4200
+Wire Wire Line
+	6000 5150 6000 5200
+Wire Wire Line
+	6050 5200 6000 5200
+Wire Wire Line
+	6000 5200 6000 5250
+Wire Wire Line
+	9000 2600 9000 2350
+Wire Wire Line
+	9000 2350 8750 2350
+Wire Wire Line
+	9000 2800 9000 3200
+Wire Wire Line
+	9000 3200 8750 3200
+Wire Wire Line
+	5700 2600 5700 2350
+Wire Wire Line
+	5700 2350 5450 2350
+Wire Wire Line
+	5700 2800 5700 3200
+Wire Wire Line
+	5700 3200 5450 3200
+Wire Wire Line
+	6250 5400 6100 5400
+Wire Wire Line
+	5900 5550 5900 5650
+Wire Wire Line
+	5900 5550 6850 5550
+Wire Wire Line
+	6850 5550 6850 5500
+Wire Wire Line
+	6850 5600 6850 5550
+Wire Wire Line
+	7250 5600 7250 5550
+Wire Wire Line
+	7250 5550 6850 5550
+Wire Wire Line
+	7250 5800 7250 5900
+Wire Wire Line
+	7250 5900 6850 5900
+Wire Wire Line
+	6850 5900 6850 5800
+Wire Wire Line
+	7600 5400 7250 5400
+Wire Wire Line
+	7250 5400 7250 5550
+Wire Wire Line
+	7600 6000 7250 6000
+Wire Wire Line
+	7250 6000 7250 5900
+Wire Wire Line
+	6850 4050 6550 4050
+Wire Wire Line
+	6850 4050 6850 4200
+Connection ~ 5450 2350
+Connection ~ 4800 2500
+Connection ~ 4550 3200
+Connection ~ 5450 2250
+Connection ~ 3000 3200
+Connection ~ 4800 3200
+Connection ~ 8750 2350
+Connection ~ 8100 2500
+Connection ~ 7850 3200
+Connection ~ 8750 2250
+Connection ~ 8100 3200
+Connection ~ 4600 4350
+Connection ~ 3600 4350
+Connection ~ 6000 4250
+Connection ~ 5950 4800
+Connection ~ 6000 5050
+Connection ~ 6000 5200
+Connection ~ 8750 3200
+Connection ~ 5450 3200
+Connection ~ 6300 3200
+Connection ~ 6850 5550
+Connection ~ 7250 5550
+Connection ~ 7250 5900
+Connection ~ 6850 5900
+Connection ~ 5900 5550
+Connection ~ 4550 2650
+Connection ~ 7850 2650
+Connection ~ 6550 4050
+Connection ~ 6550 5050
+Wire Wire Line
+	4600 5700 4600 5400
+Wire Wire Line
+	4600 5400 4750 5400
+Connection ~ 4600 5700
+$EndSCHEMATC
